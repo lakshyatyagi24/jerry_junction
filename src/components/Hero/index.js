@@ -1,11 +1,18 @@
 import React from 'react';
 import Navbar from '../Navbar';
-import { HeroContainer } from './HeroElements';
+import { HeroContainer, HeroContent, HeroBtn, HeroItems, HeroH1, HeroP } from './HeroElements';
 
 const Hero = () => {
     return (
         <HeroContainer>
             <Navbar />
+            <HeroContent>
+                <HeroItems>
+                    <HeroH1> Greatest Food Ever </HeroH1>
+                    <HeroP>Feel the Taste</HeroP>
+                    <HeroBtn>Place Order</HeroBtn>
+                </HeroItems>
+            </HeroContent>
         </HeroContainer>
     )
 }
