@@ -3,7 +3,7 @@ import { NavLink as Link } from "react-router-dom";
 import { IoRestaurantSharp } from "react-icons/io5";
 
 export const Nav = styled.nav `
-    background: red;
+    background: transparent;
     height: 80px;
     display: flex;
     justify-content: center;
