@@ -10,7 +10,7 @@ function App() {
     <Router>
       <GlobalStyle />
       <Hero />
-      <Products heading='Choose your favorite' data={productData} />
+      <Products heading='Starters' data={productData} />
       <Products heading='Sweet Treats for You' data={productDataTwo} />
     </Router>
   );
