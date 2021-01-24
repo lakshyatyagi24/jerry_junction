@@ -1,4 +1,4 @@
-import product1 from '../../images/1.jpeg';
+import product1 from '../../images/1.jpg';
 
 export const productData = [
   {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, NavLink, NavIcon, Bars } from './NavbarElement';
+import { Nav, NavLink, NavIcon, Bars } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
   return (
@@ -7,7 +7,7 @@ const Navbar = ({ toggle }) => {
       <Nav>
         <NavLink to='/'>Jerry's Junction</NavLink>
         <NavIcon onClick={toggle}>
-          <p>Menu</p>
+          <p> </p>
           <Bars />
         </NavIcon>
       </Nav>
