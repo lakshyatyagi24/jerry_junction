@@ -1,19 +1,18 @@
-import React from 'react'
-import {Bars, Nav, NavLink, NavIcon} from './NavbarElements'
+import React from 'react';
+import { Nav, NavLink, NavIcon, Bars } from './NavbarElement';
 
-const Navbar = () => {
-    return (
-        <>
-            <Nav>
-                <NavLink to='/'>Jerry's Junction</NavLink>
-                <NavIcon>
-                    <p>Menu</p>
-                    <Bars />
-                </NavIcon>
-            </Nav>
-        </>
-    )
-}
+const Navbar = ({ toggle }) => {
+  return (
+    <>
+      <Nav>
+        <NavLink to='/'>Jerry's Junction</NavLink>
+        <NavIcon onClick={toggle}>
+          <p>Menu</p>
+          <Bars />
+        </NavIcon>
+      </Nav>
+    </>
+  );
+};
 
-export default Navbar
- 
+export default Navbar;
